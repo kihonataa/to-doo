@@ -17,7 +17,7 @@ Dibuat menggunakan **Vite** dan **React.js**.
 
 ## 🛠️ Teknologi yang Digunakan
 
-* **Framework:** [Vue.js](https://react.dev/)
+* **Framework:** [React.js](https://react.dev/)
 * **Build Tool:** [Vite](https://vitejs.dev/)
 * **Styling:** [Tailwind CSS]
 * **Bahasa:** [JavaScript]
