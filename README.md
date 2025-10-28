@@ -20,7 +20,7 @@ Dibuat menggunakan **Vite** dan **React.js**.
 * **Framework:** [React.js](https://react.dev/)
 * **Build Tool:** [Vite](https://vitejs.dev/)
 * **Styling:** [Tailwind CSS]
-* **Bahasa:** [JavaScript]
+* **Language:** [JavaScript]
 
 ---
 
