@@ -1,16 +1,54 @@
-# React + Vite
+# 📝 to-doo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sebuah aplikasi to-do list sederhana yang dibuat sebagai proyek latihan front-end. Aplikasi ini memungkinkan pengguna untuk menambah, mengelola, dan menghapus tugas harian mereka.
 
-Currently, two official plugins are available:
+Dibuat menggunakan **Vite** dan **React.js**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Fitur
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Tambah Tugas:** Menambahkan tugas baru ke dalam daftar.
+* **Tandai Selesai:** Memberi tanda pada tugas yang sudah selesai (biasanya dengan coretan).
+* **Hapus Tugas:** Menghapus tugas dari daftar.
+* **Penyimpanan Lokal:** Tugas disimpan di Local Storage browser, sehingga data tidak hilang saat halaman di-refresh.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Teknologi yang Digunakan
+
+* **Framework:** [Vue.js](https://react.dev/)
+* **Build Tool:** [Vite](https://vitejs.dev/)
+* **Styling:** [Tailwind CSS]
+* **Bahasa:** [JavaScript]
+
+---
+
+## 🚀 Cara Menjalankan Proyek
+
+Berikut adalah langkah-langkah untuk menjalankan proyek ini di komputer lokal Anda.
+
+**1. Clone Repositori**
+```bash
+git clone [https://github.com/kihonataa/to-doo.git](https://github.com/kihonataa/to-doo.git)
+#################################
+# Install required dependencies #
+#################################
+$ yarn
+# OR #
+$ npm install
+
+##############################################################
+# Serve with hot reload at {host}:{port} from config.js file #
+##############################################################
+$ yarn dev
+# OR #
+$ npm run dev
+
+#####################
+# For deploying, do #
+#####################
+$ yarn build
+# OR #
+$ npm run build
+```
